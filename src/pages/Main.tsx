@@ -27,7 +27,7 @@ class Main extends Component{
         return(
             <View style={styles.container}>         
                 <Text style={styles.title}>Last BITCOIN value:</Text>
-                <Text style={styles.descriptions}>{`\n  ${this.state.last}`}</Text>
+                <Text style={styles.descriptions}>{`\n  ${(this.state.last)}`}</Text>
                 <Text style={styles.title}>Higher unit value of negotiations at last 24 hours:</Text>
                 <Text style={styles.descriptions}>{`\n  ${this.state.high}`}</Text>
                 <Text style={styles.title}>Lower unit value of negotiations at last 24 hours:</Text>
